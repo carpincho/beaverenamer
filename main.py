@@ -36,7 +36,7 @@ def is_file_allowed(file):
 if __name__ == '__main__':
 
     files = os.listdir(PATH_TO_DIR)
-    accepted, not_accepted = get_accepted_and_ommited_files([])
+    accepted, not_accepted = get_accepted_and_ommited_files(files)
 
     print "Accepted files: %s" % accepted
     print "Not Accepted files %s " % not_accepted
