@@ -23,7 +23,7 @@ def get_accepted_and_ommited_files(files):
 
 def is_file_allowed(file):
     """
-    Determine is a file is allowed to be renamed.
+    Determine if a file is allowed to be renamed.
     """
     allowed = False
     file_ext = file[-4:]
