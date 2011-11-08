@@ -2,7 +2,7 @@
 import os
 import re
 
-PATH_TO_DIR = "/Users/carpincho/Desktop/series/ITCrowd/temporada 2/"
+PATH_TO_DIR = "."
 extension_allowed = ['.mp4', '.avi', '.srt']
 
 
